@@ -1,4 +1,4 @@
-# InternalStorageFileFolderChooser
+# Internal Storage File & Folder Chooser
 
 This is a sample app that presents a file and folder picker for the internal storage.
 
