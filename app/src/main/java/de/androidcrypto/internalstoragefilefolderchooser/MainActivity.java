@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         generateSampleFiles = findViewById(R.id.btnGenerateSampleFiles);
         listFolder = findViewById(R.id.btnListFolder);
         listFiles = findViewById(R.id.btnListFiles);
