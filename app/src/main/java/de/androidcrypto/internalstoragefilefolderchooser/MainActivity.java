@@ -44,14 +44,12 @@ public class MainActivity extends AppCompatActivity implements Serializable {
             String folder = "";
             String file = "";
             folder = (String) getIntent().getSerializableExtra("selectedFolder"); //Obtaining data
-            //if (!folder.equals("")) {
             if (folder != null) {
                 selectedFolder.setText(folder);
                 System.out.println("MainActivity folder: " + folder);
                 // todo do what has todo when folder is selected
             }
             file = (String) getIntent().getSerializableExtra("selectedFile"); //Obtaining data
-            //if (!file.equals("")) {
             if (file != null) {
                 selectedFile.setText(file);
                 System.out.println("MainActivity file: " + file);
