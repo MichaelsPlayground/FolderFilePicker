@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InternalStorageFileFolderChooser">
         <activity
+            android:name=".BrowseFolder"
+            android:exported="false" />
+        <activity
+            android:name=".ListFolder"
+            android:exported="false" />
+        <activity
+            android:name=".ListFiles"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
